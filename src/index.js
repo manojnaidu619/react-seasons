@@ -3,7 +3,12 @@ import ReactDOM from 'react-dom'
 
 class App extends React.Component{
    render(){
-       return <div>Hello</div>
+       window.navigator.geolocation.getCurrentPosition(
+           (position) => console.log(position),
+           (error) => console.log(error)
+       )
+
+       return <div>Latitide : </div>
    }
 }
 
