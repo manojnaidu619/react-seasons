@@ -1,0 +1,36 @@
+
+.left-icon{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.right-icon{
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+
+.season-display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: -15px;
+}
+
+.summer{
+    background-color: bisque;
+}
+
+.winter{
+    background-color: aliceblue;
+}
+
+.sun{
+    color: tomato;
+}
+
+.snowflake{
+    color: darkcyan;
+}
